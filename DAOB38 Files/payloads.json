@@ -1,0 +1,59 @@
+{
+  "functions/events/discord/message/dm.js": {
+    "event": {
+      "id": "0000000000000000",
+      "tts": false,
+      "type": 0,
+      "flags": 0,
+      "nonce": "0000000000000000",
+      "author": {
+        "id": "0000000000000000",
+        "avatar": null,
+        "username": "SAMPLE_USER",
+        "public_flags": 0,
+        "discriminator": "1234"
+      },
+      "embeds": [],
+      "member": {
+        "deaf": false,
+        "mute": false,
+        "roles": [],
+        "joined_at": "2021-01-01T00:00:00+00:00",
+        "hoisted_role": null
+      },
+      "pinned": false,
+      "content": "This is a test message",
+      "guild_id": "947521036008706078",
+      "mentions": [
+        {
+          "id": "0000000000000000",
+          "bot": false,
+          "avatar": null,
+          "member": {
+            "deaf": false,
+            "mute": false,
+            "nick": null,
+            "roles": [
+              "947522624563576893"
+            ],
+            "pending": false,
+            "joined_at": "2021-01-01T00:00:00+00:00",
+            "is_pending": false,
+            "hoisted_role": null,
+            "premium_since": null
+          },
+          "username": "SAMPLE_USERNAME",
+          "public_flags": 0,
+          "discriminator": "1234"
+        }
+      ],
+      "timestamp": "2021-01-01T00:00:00+00:00",
+      "channel_id": "0000000000000000",
+      "attachments": [],
+      "mention_roles": [],
+      "edited_timestamp": null,
+      "mention_everyone": false,
+      "referenced_message": null
+    }
+  }
+}

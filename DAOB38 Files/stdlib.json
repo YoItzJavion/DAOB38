@@ -1,0 +1,257 @@
+{
+  "name": "dankarenaofficial/dank-bot",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "userinfo"
+      }
+    },
+    "functions/events/discord/command/userinfo.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "userinfo"
+      }
+    },
+    "functions/events/discord/message/create/prefix/covid.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": ",covid"
+      }
+    },
+    "functions/events/discord/message/create/prefix/verify.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "verify"
+      }
+    },
+    "functions/events/discord/message/create/prefix/translate.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": "translate"
+      }
+    },
+    "functions/events/discord/message/Avatar.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/command-1.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "join"
+      }
+    },
+    "functions/events/discord/message/create/prefix/badge.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": ",badge"
+      }
+    },
+    "functions/events/discord/message/create/prefix/voicechannel.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": ",voicechannel"
+      }
+    },
+    "functions/events/discord/message/create/prefix/define.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": ",define"
+      }
+    },
+    "functions/events/discord/message/create/prefix/slowmode.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": ",slowmode"
+      }
+    },
+    "functions/events/discord/dm/ModMail.js": {
+      "name": "discord.dm.create"
+    },
+    "functions/events/discord/guild/member/Welcome.js": {
+      "name": "discord.guild.member.add"
+    },
+    "functions/events/discord/guild/member/WelcomeRules.js": {
+      "name": "discord.guild.member.add"
+    },
+    "functions/events/discord/message/help.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/captcha.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/bot_name.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/lottery.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/warn.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/appeal.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/slap.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/status.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/extralock.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/economy/fun.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/extrastatus.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/membercount.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/backupinvite.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/backupwho-is.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/ttt.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/inspire.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/notes.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/votelink.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/say.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/whois.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/clock-staff.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/google.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/dm.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/staff.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/changeprefix.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/invite.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/backup-slap.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/commandlist.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/calculator.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/create/prefix/slowmode0.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": ",slowmode"
+      }
+    },
+    "functions/events/discord/message/report.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/create/prefix/spin.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": ",spin"
+      }
+    },
+    "functions/events/discord/message/spinthewheel.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/sportstats.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/create/prefix/funroles.js": {
+      "name": "discord.message.create.prefix",
+      "subtype": {
+        "prefix": ",funroles"
+      }
+    },
+    "functions/events/discord/message/button/interaction.js": {
+      "name": "discord.message.button.interaction",
+      "subtype": {
+        "custom_id": "gamer_button_id"
+      }
+    },
+    "functions/events/discord/message/giveaway.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/kick.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/voice/state/update.js": {
+      "name": "discord.voice.state.update"
+    },
+    "functions/events/discord/message/afk.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/dm/dm-notifs.js": {
+      "name": "discord.dm.create"
+    },
+    "functions/events/discord/message/mute-unmute.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/message/lyrics.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/messageiq.js": {
+      "name": "discord.message.create"
+    }
+  },
+  "env": [
+    {
+      "name": "WELCOME_CHANNEL_ID",
+      "description": "The channel ID to send message to for new users."
+    },
+    {
+      "name": "CHANNEL_ID",
+      "description": "The channel to send your welcome message"
+    },
+    {
+      "name": "prefix",
+      "description": "Your prefix for commands!"
+    },
+    {
+      "name": "PREFIX",
+      "description": "Your bot's prefix"
+    },
+    {
+      "name": "ROLE_ID",
+      "description": "The id of the role of Staff members"
+    },
+    {
+      "name": "log_channel_id",
+      "description": "put the channel id of your log channel!"
+    },
+    {
+      "name": "VOICE_CHANNEL_ID",
+      "description": "The 'central' voice channel users must join first."
+    },
+    {
+      "name": "VOICE_CATEGORY_ID",
+      "description": "The `Category` That the VC will be created in."
+    }
+  ]
+}

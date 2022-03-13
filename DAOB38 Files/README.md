@@ -1,16 +1,17 @@
-# README
-[<img src="https://open.autocode.com/static/images/open.svg?" width="192">](https://open.autocode.com/)
+DAOB38 - Fun, Misc, Auto-Mod, Moderation Bot
 
-This is the README for your project. If you choose to publish an open source `app`
-for this project, this is what will be displayed on [Autocode Apps](/app).
-**The first line** will be used as the title of the app. Otherwise, you should use it
-to record important information about the project for yourself or your teammates.
 
-## Preview
-While in the Autocode Editor, you can see a small preview of your README
-in the bottom right corner. Click on it to expand the preview.
+The prefixes are , and slash commands
 
-## GitHub
-Should you decide to publish your projects and templates to GitHub,
-you can include an **Open in Autocode** button as displayed above.
-This will enable anybody to fork your project in Autocode directly.
+
+The prefix , = Fun, Misc, and Stats
+
+
+
+Slash Commands = Moderation
+
+
+This Bot is in 5+ servers which is commonly used by the members and Staff.
+The DAOB38 Bot Team is working partnerships with other servers to get the bot in it.
+We currently have 3 people in the Bot team - Yo_ItzChristian, Mario, and Myself
+

@@ -1,0 +1,53 @@
+const lib = require('lib')({token: process.env.STDLIB_SECRET_TOKEN});
+
+if (context.params.event.content.startsWith(`${process.env.PREFIX},botinfo`))
+  await lib.discord.channels['@0.1.2'].messages.create({
+    channel_id: `${context.params.event.channel_id}`,
+    content: '',
+    tts: false,
+    embeds: [
+      {
+        type: 'rich',
+        title: `Bot Info `,
+        description: `Description general of DAOB38!`,
+        color: 0x00ff80,
+        fields: [
+          {
+            name: `Owner`,
+            value: `Young38baby#5504`,
+            inline: true,
+          },
+          {
+            name: `Created`,
+            value: `🕒July 2021`,
+            inline: true,
+          },
+          {
+            name: `Features`,
+            value: `#1 Moderation Commands`,
+            inline: true,
+          },
+          {
+            name: `Features`,
+            value: `#2 I include Slash Commands`,
+            inline: true,
+            },
+            {
+              name: `Features`,
+              value: `#3 FUN/MISC prefix commands`,
+              inline: true,
+              },
+              {
+                name: `Fact`,
+                value: `Accepted by Top.gg`,
+                inline: true,
+                },
+                {
+                  name: `Fact`,
+                  value: `Almost verified by discord`,
+                  inline: true,
+          },
+        ],
+      },
+    ],
+  });
